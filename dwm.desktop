@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=DWM
+Comment=Dynamic Window Manager from Suckless
+TryExec=dwm
+Exec=dwm
+Type=Application
+Keywords=Window manager
