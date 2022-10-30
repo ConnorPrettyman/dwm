@@ -40,6 +40,9 @@ install: all
 	mkdir -p ${DESTDIR}${PREFIX}/bin
 	cp -f dwm ${DESTDIR}${PREFIX}/bin
 	cp -f dwm.desktop /usr/share/xsessions/dwm.desktop
+	cp -rf .dwm /home/connor/.dwm
+	chmod +x /home/connor/.dwm/autostart.sh
+	chmod +x /home/connor/.dwm/statusbar.sh
 	chmod 755 /usr/share/xsessions/dwm.desktop
 	chmod 755 ${DESTDIR}${PREFIX}/bin/dwm
 	mkdir -p ${DESTDIR}${MANPREFIX}/man1
